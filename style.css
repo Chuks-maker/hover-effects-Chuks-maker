@@ -1,0 +1,222 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.btn-red {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(255, 0, 0, 0.6);
+          box-shadow: 0 10px 0.5rem rgba(255, 0, 0, 0.6);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dog {
+  height: 5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+.dog:hover {
+  border-radius: 0;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  background-image: url(./media/sun.jpg);
+  background-position: center;
+  font-size: 8rem;
+  color: transparent;
+  -webkit-background-clip: text, border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  -webkit-transform: skewx(-5deg);
+          transform: skewx(-5deg);
+  letter-spacing: 2rem;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.rice-parent {
+  width: 60rem;
+  height: 40rem;
+}
+
+.rice-gallery {
+  margin: 3rem;
+  position: relative;
+  background-color: red;
+}
+
+.rice-photo {
+  position: absolute;
+  height: 20rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.rice-photo:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  z-index: 2;
+  outline: 1rem solid green;
+}
+
+.rice-photo-1 {
+  top: 20rem;
+  right: 20%;
+}
+
+.rice-photo-2 {
+  top: 0rem;
+  right: -18%;
+}
+
+.rice-photo-3 {
+  top: 0rem;
+  left: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.enjoy {
+  height: 30rem;
+  position: relative;
+}
+
+.enjoy-picture {
+  height: 30rem;
+  -webkit-clip-path: circle(30%);
+          clip-path: circle(30%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.enjoy-header {
+  font-size: 3rem;
+  opacity: 0;
+  color: red;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.enjoy:hover .enjoy-picture {
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+}
+
+.enjoy:hover .enjoy-header {
+  opacity: 1;
+  top: 40%;
+  left: 4.5%;
+  font-size: 2rem;
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

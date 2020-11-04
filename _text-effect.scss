@@ -1,0 +1,16 @@
+@import "_variables.scss";
+.text-effect {
+    background-image: url(./media/sun.jpg);
+    background-position: center;
+    font-size: 8rem;
+    color: transparent;
+    -webkit-background-clip: text, border-box;
+    transition: all 0.3s
+
+}
+
+.text-effect:hover {
+    transform: skewx(-5deg);
+    letter-spacing: 2rem;
+}
+

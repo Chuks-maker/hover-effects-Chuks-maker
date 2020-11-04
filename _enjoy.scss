@@ -1,0 +1,30 @@
+@import "_variables.scss";
+.enjoy {
+    height: 30rem;
+    position: relative;
+}
+.enjoy-picture { 
+    height: 30rem;
+    clip-path: circle(30%);
+    transition: all 0.3s;
+}
+.enjoy-header {
+    font-size: 3rem;
+    opacity: 0;
+    color: red;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(0, 0);
+}
+.enjoy:hover .enjoy-picture {
+    filter: grayscale(70%);
+}
+.enjoy:hover .enjoy-header {
+    opacity: 1;
+    top: 40%;
+    left: 4.5%;
+    font-size: 2rem;
+}
